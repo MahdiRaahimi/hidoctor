@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Vazir";
+    src: url(font/Vazir.eot) format("eot");
+    src: url(font/Vazir.ttf) format("ttf");
+    src: url(font/Vazir.woff) format("woff");
+    src: url(font/Vazir.woff2) format("woff2");
+} 
+
+ @font-face {
+    font-family: "Vazir-bold";
+     src: url(font/Vazir-Bold.eot) format("eot");
+    src: url(font/Vazir-Bold.ttf) format("ttf");
+    src: url(font/Vazir-Bold.woff) format("woff");
+    src: url(font/Vazir-Bold.woff2) format("woff2"); 
+}
+
+body {
+    font-family: 'Vazir', sans-serif;
+    background-color:  #F4F4F4 !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Vazir' !important;
+    font-weight: bold !important;
+}
+
+#card-hover{
+    transition: all .9s !important;
+}
+
+#card-hover:hover{
+    box-shadow:2px 5px 10px 2px  !important;
+    transform: perspective(500px) translate3d(0,0,50px) !important;
+    z-index:5 !important; 
+}
+
+.text-success{
+   color:#2b9348 !important;
+}
+
+#btn-Success{
+    background-color: #2b9348 !important;
+}
+
+#btn-size{
+    font-size: 12px !important;
+}
+
+#hover-link{
+    transition: all .7s !important;
+}
+
+#hover-link:hover{
+    color: #2e904a !important;
+
+}
+
+#radius{
+    border-radius:15px !important;
+}
+
+#radius-top{
+    border-radius:15px 15px 0 0 !important;
+}
+
+.card-hover{
+    transition: all .6s ease !important;
+}
+
+.card-hover:hover{
+    box-shadow:2px 2px 15px 2px  grey!important;
+    
+}
+
+.btn-outline-success:hover{
+    background-color: #2e904a !important;
+}
+
+.border-success{
+    border:solid 0.1px #2e904a !important;
+}
+
+#background-blue{
+    background-color: #ACCEDD !important;
+}
+
+.bg-footer{
+    background-color:#95d5b2 !important;
+}
+
+#background-green{
+    background-color: #2b7941 !important;
+}
+
+#hover-link-footer{
+    transition: all .7s !important;
+}
+
+#hover-link-footer:hover{
+    color: #F4F4F4 !important;
+
+}
+
+
+
+
